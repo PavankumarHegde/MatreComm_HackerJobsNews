@@ -1,0 +1,53 @@
+body {
+  background-color: #ffffcc;
+}
+
+.container {
+  margin: 20px;
+}
+
+.heading {
+  color: orange;
+}
+
+.job-container {
+  background-color: white; /* Updated background color */
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.job-title {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.publisher {
+  margin-top: 10px;
+}
+
+.date {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.job-meta {
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.load-button {
+  background-color: #ec9b3d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-button:hover {
+  background-color: #ba851a;
+}
